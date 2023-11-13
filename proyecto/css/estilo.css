@@ -1,0 +1,70 @@
+/********************************/
+
+
+
+/*********************************/
+
+/*******fuentes******/
+@font-face {
+    font-family: texto;
+    src: url(../font/steelfish\ bd.otf);
+}
+
+@font-face {
+    font-family:otros;
+    src: url(../font/pricedown\ bl.otf);
+}
+@font-face {
+    font-family: elefante;
+    src: url(../font/Elephant-PersonalUse.ttf);
+}
+
+@font-face {
+    font-family: texto2;
+    src: url(../font/Longsile.ttf);
+}
+
+/****************layout general***************/
+body{background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: elefante;
+font-size: 1.3em;
+margin: 0;
+padding-top: 3%;
+padding-bottom: 3%;}
+
+#wrapper{width: 90%;
+    margin: auto;}
+/*************** estilo de barra de navegacion********/
+nav{font-family:elefante;
+font-size: 1.5em;background-color: rgb(153, 0, 255);}
+
+/********HERO SECTION**********/
+
+#hero{background-image: url(../img/bar\ 3.jpg);
+    height: 95vh; /******forzar el alto de la hero para ver la foto******/
+background-size: cover; /******* estira la foto para encajar********/
+background-position: 50%;
+font-family: elefante;
+font-size: 3em;
+text-align: center;/******* donde esta el punto de interes******/
+    padding-top: 30px;border-radius: 0% 0% 5% 5%;}
+
+
+#Welcome{font-family: texto1;}
+
+#Location{font-family: texto1; text-align: center; border-bottom: 2px solid rgb(82, 74, 90);}
+
+
+
+
+
+#footer{background-color: rgb(255, 255, 255);color: black;}
+
+
+
+
+/****************responsividad***************/
+
+@media only screen and ( width<650px){
+    #wrapper {width: 95%;}}
